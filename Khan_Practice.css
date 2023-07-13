@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-heading {
+    text-align: center;
+    font-family: "lobster";
+    font-size: 60px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.todos-bg-container {
+    background-color: #f7e09e;
+    height: 200vh;
+}
+
+.button-add {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    width: 70px;
+    border-width: 0px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.input-box-order {
+    border-width: 1px;
+    width: 60vw;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #bfbcb2;
+    margin-bottom: 20px;
+}
+
+.overall-taskitemsContainer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.taskElement-container {
+    margin-top: 30px;
+}
+
+.labelElement-box {
+
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.label-container {
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 20%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.label-text-changes {
+    text-decoration: line-through;
+}
